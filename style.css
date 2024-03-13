@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&family=Roboto:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+Great+Primer+SC&family=Raleway:wght@400;500;600;700&family=Roboto:wght@400;500;700&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+    /* font-family: 'Roboto', sans-serif; */
+}
+
+:root {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+/* ----------------------------------------navbar------------------------------------------------------- */
+
+
+#nav-color {
+    background-color: #000000e0;
+    padding: 1em 4em;
+}
+
+.logo {
+    font-size: 3rem;
+    font-weight: 600;
+    color: white;
+}
+
+.logo-txt {
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.nav-item {
+    padding-left: 1.5em;
+}
+
+.nav-link {
+    color: white;
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.nav-link:visited {
+    color: white;
+}
+
+.nav-link:hover {
+    color: aqua;
+}
+
+.navbar-toggler {
+    background-color: white
+}
+
+
+/* -------------------------------------------------------------header------------------------------------------ */
+
+.header-container {
+    height: 100vh;
+    /* width: 100vw; */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('./images/bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#header-content h1 {
+    font-size: 5.5rem;
+    text-transform: uppercase;
+}
+
+#header-content p {
+    font-size: 2.5rem;
+    text-transform: capitalize;
+}
+
+@media (max-width:450px) {
+    #header-content h1 {
+        font-size: 3.5rem;
+    }
+
+    #header-content p {
+        font-size: 1.9rem;
+    }
+}
+
+@media (min-width:451px) and (max-width:767px) {
+    #header-content h1 {
+        font-size: 4rem;
+    }
+
+    #header-content p {
+        font-size: 1.7rem;
+    }
+}
+
+@media (min-width:768px) and (max-width:1200px) {
+    #header-content h1 {
+        font-size: 3.8rem;
+    }
+
+    #header-content p {
+        font-size: 2.5rem;
+    }
+}
+
+/* menu */
+
+div.container-bg {
+    background-color: rgb(243, 240, 240);
+}
+
+div.card-bg {
+    background-color: white;
+}
+
+div.second-row {
+    padding-bottom: 2em;
+}
+
+.mt-5 {
+    margin-top: 3rem !important;
+}
+
+.menu-h {
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+    font-size: 5.5rem;
+}
+
+#menu-p {
+    letter-spacing: 5px;
+}
+
+h5 {
+    padding: 1em 0em;
+    font-size: 1.8rem;
+}
+#img-radius{
+    padding-top: 1em;
+    border-radius: 7%;
+}
+p.about-item {
+    padding-bottom: 2em;
+    font-family: 'IM Fell Great Primer SC', serif;
+}
+
+#plc-ord-btn {
+    margin-bottom: 20px;
+    margin-left: 0.5em;
+}
+
+#plc-ord-btn:hover {
+    box-shadow: 2px 2px 5px rgb(175, 172, 172);
+}
+
+a.btn-size {
+    font-size: 1.6rem;
+}
+
+.paneer-pizza {
+    margin-top: 22px;
+}
+
+/*---------------------------------------------- about------------------------------------------------------ */
+
+div.about {
+    margin-bottom: 5em;
+}
+div.about-bg{
+    background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+    padding-bottom: 2em;
+}
+
+.about-h {
+    font-weight: 500;
+    font-size: 5.5rem;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+    font-family: 'IM Fell Great Primer SC', serif;
+    letter-spacing: 2px;
+}
+
+.about-p {
+    padding-top: 7em;
+    font-size: 2rem;
+    font-family: 'IM Fell Great Primer SC', serif;
+}
+
+#about-link {
+    font-size: 2em;
+}
+.about-img{
+    padding-top: 6em;
+}
+@media (max-width:500px) {
+    .about-p {
+        padding-top: 2em;
+    }
+}
+@media(min-width:501px) and (max-width:768px){
+    .about-p {
+        padding-top: 2em;
+    }
+}
+@media(min-width:769px) and (max-width:990px){
+    .about-p {
+        padding-top: 3em;
+        font-size: 1.9rem;
+    }
+}
+
+/* --------------------------------------------------------------footer---------------------------------------------- */
+
+.footer-p{
+    font-size: 2rem;
+}
+
+

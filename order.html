@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./order.css">
+    <title>Foodies | Order</title>
+</head>
+
+<body>
+    <div class="order-bg">
+        <div class="container">
+            <div class="row justify-content-center align-items-center" id="inp-details">
+                <div class="col-md-6 col-11">
+                    <h2 class="text-center text-light order-h2">Order Your Food</h2>
+                    <form action="ord_cmplt.html" method="get" target="_blank">
+                        <div class="form-floating mb-3">
+                            <input type="name" class="form-control" id="floatingInput" placeholder="Full Name" required>
+                            <label for="floatingInput">Name</label>
+                        </div>
+                        <div class="form-floating">
+                            <input type="tel" class="form-control" id="floatingtel" placeholder="Mobile Number"
+                                required>
+                            <label for="floatingtel">Mobile Number</label>
+                        </div>
+                        <div class="form-floating mt-3">
+                            <textarea class="form-control" id="address" name="text" placeholder="Address goes here"
+                                required></textarea>
+                            <label for="address">Address</label>
+                        </div>
+
+                        <div class="form-floating mt-3">
+                            <select class="form-select" id="order" name="orderist">
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>5</option>
+                                <option>6</option>
+                                <option>7</option>
+                            </select>
+                            <label for="order" class="form-label">Select Quantity:</label>
+                        </div>
+
+                        <a href=""  ></a>
+                        <button type="submit" class="btn btn-danger mt-3" id="order">Order Now</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
